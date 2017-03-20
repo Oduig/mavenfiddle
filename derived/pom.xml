@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <properties>
-    <mainClass>com.gjosquin.tictactoe.web.TicTacToeApplication</mainClass>
+    <mainClass>derived.MyApp</mainClass>
   </properties>
 
   <parent>
@@ -47,6 +47,7 @@
         <version>1.6.0</version>
         <configuration>
           <mainClass>${mainClass}</mainClass>
+          <skip>false</skip>
         </configuration>
       </plugin>
     </plugins>
